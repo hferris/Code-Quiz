@@ -31,6 +31,22 @@
 ]
 
 
+document.querySelector('#question').innerText = [indexOfQuestionToShow].question
+// console.log(quiz[0].question);
+document.querySelector('#next').addEventListener('click', function(){
+	indexOfQuestionToShow ++ 
+	if(indexOfQuestionToShow >= quiz.length){
+		alert('game over')
+		return
+	}
+	document.querySelector('#question').innerText = quizArray[indexOfQuestionToShow].question
+})
+
+
+
+
+
+
 //GIVEN I am taking a code quiz
 //WHEN I click the start button
 //THEN a timer starts and I am presented with a question
