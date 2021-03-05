@@ -5,35 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Code Quiz</title>
-    <link rel="stylesheet" href="./assets/style/style.css" />
-  </head>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+</head>
   <body>
       <nav>
-          <button>highScores</button>
-          <h4 id="timer">12:22</h4>     
+          <h4> <a href="">Start Over</a></h4>
+          <h3 id="timer">Time: <span id="timerText">0</span></h3>     
       </nav>
 
-      <div id="startGameBox">
+      <div id="cardHolder">
 
-      </div>
+        <div id="startGameBox" class="card">
+            <h2>JavaScript fundamentals</h2>
+            <p>This is the javascript quiz, press the start button to begin.</p>
+            <button id="startBtn">Start</button>
+            
 
-      <div id="questionBox">
+        </div>
+        <br>
 
-          <h3 id="question">
-              what is my favroite food?
-          </h3>
-          <ul id="choices">
+        <div id="questionBox" class="card">
 
-          </ul>
+            <h3 id="question"></h3>
+            <div id="choices"></div>
+            <div id="response">
+                <h5>TUE</h5>
+            </div>
 
-      </div>
-      <div id="gameOverBox">
+        </div>
+        <div id="gameOverBox" class="card">
+            <h3>Game Over- Thanks for Playing!</h3>
+            <p>This is your score! <span id="score">0</span>
+                <br><br><br>
+                <input id="initials" type="text" name="initials" placeholder="Enter Initials Here..."></input>
+            </p>
+            <button id="initialsBtn">Submit Score</button>
 
-      </div>
-      <div id="highScoresBox">
+        </div>
+        <div id="highScoresBox" class="card">
+           <h3>YOUR SAVED SCORE</h3>
+           <p><span id="savedInitials"></span>: <span id="savedScore"></span></span></p>
 
-      </div>
-    
+        </div>
+    </div>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
