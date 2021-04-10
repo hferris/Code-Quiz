@@ -1,6 +1,7 @@
 # MY code Quiz
 # Here is the screenshot below :star_struck:
 ![Alt text](/./assets/imgs/snap-shot.png?raw=true "Screenshot")
+![Alt text](/./assets/imgs/snap-shot2.png?raw=true "Screenshot")
 # Check it out here:https://hferris.github.io/Code-Quiz/
 
 <img src="https://img.shields.io/badge/License-IPL%201.0-blue.svg"></img>
