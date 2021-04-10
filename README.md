@@ -1,7 +1,7 @@
 # MY code Quiz
+![Alt text](/./Assets/imgs/snap-shot.png?raw=true "Screenshot")
 # Check it out here:https://hferris.github.io/Code-Quiz/
 # Here is the screenshot below :star_struck:
-![Alt text](/./Assets/imgs/snap-shot.png?raw=true "Screenshot")
 
 <img src="https://img.shields.io/badge/License-IPL%201.0-blue.svg"></img>
 
